@@ -88,6 +88,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .conteiner-label{
     width: 100%;
@@ -108,18 +109,48 @@ label{
 }
 input[type="text"]{
     width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 25px;
+}
+input[type="text"]:hover{
+    box-shadow: 0 0 10px grey;
 }
 input[type="password"]{
     width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 25px;
+}
+input[type="password"]{
+    box-shadow: 0 0 10px grey;
 }
 .conteiner-input-radio{
     margin: 10px 10px;
 }
 button[type="reset"]{
     visibility: visible;
+    height: 25px;
+    background-color: red;
+    width: 145px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+button[type="reset"]:hover{
+    box-shadow: 0 0 10px grey;
+    background-color: rgb(255, 117, 117);
 }
 button[type="submit"]{
     text-decoration: none;
+    background-color: #1259c3;
+    height: 25px;
+    width: 145px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+button[type="submit"]:hover{
+    box-shadow: 0 0 10px grey;
+    background-color: rgb(78, 78, 255);
 }
 a{
     text-decoration: none;
