@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link href="/css/styleRegister.css"rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <div class="logo-search-and-msj">
+           <img src="/images/logo-mercado-liebre.svg" id="logo-mercado-liebre">
+           <br>
+           <div class="search">
+              <input type="text" placeholder="Buscar productos, marcas" id="barra-de-busqueda"/>
+              <button><i class="fa fa-search" id="logo-lupa"></i></button>
+           </div>
+           <h3 id="cecystdc"><img src="/images/hand-holding-dollar-solid.svg" align:"left" width="18px" height="15px">Comprá en cuotas y sin tarjeta de crédito</h3>
+        </div>
+        <div class="renglones">
+           <div class="primer-renglon">
+              <a href="#" id="hipervinculo-a">Ofertas</a>
+              <a href="#" id="hipervinculo-a">Tiendas Oficiales</a>
+              <a href="#" id="hipervinculo-a">Vender</a>
+              <a href="#" id="hipervinculo-a">Ayuda</a>
+           </div> 
+           <br>
+           <div class="segundo-renglon">
+              <a href="/register" id="hipervinculo-a">Creá tu cuenta<img src="/images/id-card-regular.svg" id="logos-renglones"></a>
+              <a href="/login" id="hipervinculo-a">Ingresá<img src="/images/right-to-bracket-solid.svg" id="logos-renglones"></a>
+              <a href="#" id="hipervinculo-a">Mis compras<img src="/images/cart-shopping-solid.svg" id="logos-renglones"></a>
+           </div>
+        </div>
+        <br>
+        <div class="burger-menu">
+           <i class="fas fa-bars" id="hamburguesa"></i>
+        </div>
+    </header>
+    <div class="registro">
+        <form action="/" method="POST">
+        <div class="conteiner">
+            <div class="option">
+                <div class="conteiner-label">
+                <label for="nombreyapellido">Nombre y Apellido</label>
+                </div>   
+                <div class="conteiner-input">
+                    <input type="text" name="nya" id="nombreyapellido">
+                </div>
+            </div>
+            <div class="option">
+                <div class="conteiner-label">
+                    <label for="nombreDeUsuario">Nombre de usuario</label>
+                </div>
+                <div class="conteiner-input"> 
+                    <input type="text" name="ndu" id="nombreDeUsuario">
+                </div>
+            </div>
+            <div class="option">
+                <div class="conteiner-label">
+                    <label for="fechaDeNacimiento">Fecha De Nacimiento</label>
+                </div>
+                <div class="conteiner-input">
+                    <input type="date" name="fecha" value="Ej: 18/08/05">
+                </div>
+            </div>
+            <div class="option">
+                <div class="conteiner-label">
+                   <label for="domicilio">Domicilio</label>
+                </div>
+                <div class="conteiner-input">
+                    <input type="text" name="domicilio" id="domicilio">
+                </div>
+            </div>
+            <div class="option">
+                <div class="conteiner-label">
+                    <label for="compOvend">Que quieres ser:</label>
+                </div>
+                <div class="conteiner-input-radio">
+                    <input type="radio" name="cov" value="Comprador">Comprador
+                </div>
+                <div class="conteiner-input-radio">
+                    <input type="radio" name="cov" value="Vendedor">Vendedor
+                </div>
+            </div>
+            <div class="option">
+                <div class="conteiner-label">
+                    <label for="categorias">Que tipos de productos te gustaria ver:</label>
+                </div>
+                <div class="conteiner-input-radio">
+                    <input type="checkbox" name="categoria" value="Electro">Electro
+                </div>
+                <div class="conteiner-input-radio">
+                    <input type="checkbox" name="categoria" value="Moda">Moda
+                </div>
+                <div class="conteiner-input-radio">
+                    <input type="checkbox" name="categoria" value="Hogar">Hogar
+                </div>
+                <div class="conteiner-input-radio">
+                    <input type="checkbox" name="categoria" value="Jugueteria">Jugueteria
+                </div>
+            </div>
+            <div class="option">
+                <div class="conteiner-label">
+                    <label>Perfil de usuario</label>
+                </div>    
+                <input type="file" name="foto" accept=".jpg" multiple>
+            </div>
+            <div class="option"> 
+                <div class="conteiner-label">
+                    <label for="password">Contraseña:</label>
+                </div>
+                <input type="password" name="Contraseña" id="password">
+            </div>
+            <div class="option">
+                <div class="conteiner-label">
+                    <label for="confirmarPassword">Confirmar Contraseña</label>
+                </div>
+                <input type="password" name="Confirm" id="confirmarPassword">
+            </div>
+            <div class="button">
+                <div class="conteiner-input-radio">
+                    <button type="submit"><a href="/">Enviar</a></button>
+                </div>
+                <div class="conteiner-input-radio">
+                    <button type="reset">Borrar</button>
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

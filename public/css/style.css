@@ -1,0 +1,637 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: rgb(255, 208, 0);;
+    width: 100%;
+    height: 345px;
+}
+.logo-search-and-msj{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+#logo-mercado-liebre{
+    width: 50%;
+    height: 100px;
+}
+.search{
+    margin-top: 40px;
+    width:50%;
+}
+.logo-lupa{
+    height: 20px;
+    width: 20px;
+}
+#barra-de-busqueda{
+    height: 20px;
+    width: 80%;
+}
+#logos-renglones{
+    position: relative;
+    top: 6px;
+    width: 15px; 
+    height: 20px
+}
+a{
+    visibility:hidden
+}
+.burger-menu {
+    color: white;
+    background-color: #1259c3;
+    text-align: center;
+    font-size: 24px;
+    width: 40px;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 45px;
+  }
+#imagen-ml{
+    width: 100%;
+    height: 164px;
+    position: relative;
+    bottom: 40px;
+}
+main{
+    background-color: rgb(218, 215, 211);
+}
+.titulo{
+    font-size: 30px;
+    color: grey;
+    }
+.contenedor-articulos{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.article-sub{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 70%;
+    height: 250px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px grey;     
+}
+.article-sub:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+  #imagen-article{
+    width: 100%;
+    height: 200px;
+}
+.cajas{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    bottom: 3px;
+}
+.cajas > #logo{
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    color: #39b54a;
+    position: relative;
+    right: 10px;
+    top: -15px;
+    left: 95px;
+}
+.precios-descuento{
+    display: flex;
+    position: relative;
+    bottom: 25px;
+}
+.precios {
+    width: 30%;
+    font-size: 15px;
+} 
+.descuento{
+    font-size: 15px;
+    width: 70%;
+    color: #39b54a;
+}
+.nombre-producto{
+    background-color: white;
+    width: 100%;
+    height: 25px;
+    position: relative;
+    bottom: 20px;
+    font-size: 15px;
+}
+#logos-1{
+    color: blue;
+}
+#logos-1:hover{
+    color: rgb(255, 208, 0);
+}
+  @keyframes rotar {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg); 
+	}
+}
+
+article:hover #logo{
+	animation-name: rotar;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-out;
+}
+@media (min-width:450px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    header{
+        background-color: rgb(255, 208, 0);;
+        width: 100%;
+        height: auto;
+    }
+    .logo-search-and-msj{
+        width: 100%;
+        display: flex;
+        height: 100px;
+    }
+    #logo-mercado-liebre{
+        width: 33%;
+    }
+    .search{
+        margin-top: 40px;
+        width:33%;
+    }
+    .logo-lupa{
+        height: 20px;
+        width: 20px;
+    }
+    #barra-de-busqueda{
+        height: 20px;
+        width: 80%;
+    }
+    #cecystdc{
+        width: 33%;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .primer-renglon{
+        display: inline;
+        margin: 10px;
+        position: absolute;
+        left: 1px;
+    }
+    .segundo-renglon{
+        display: inline;
+        margin: 10px;
+        position: absolute;
+        right: 1px;
+        top: 94.4px;
+        }
+    .renglones{
+        display: flex;
+        }
+    #logos-renglones{
+        position: relative;
+        top: 6px;
+        width: 15px; 
+        height: 20px
+    }
+    a{  visibility: visible;
+        font-size: 10px;
+        text-decoration: none;
+        color: black;
+        margin-left: 5px;
+        margin-right: 5px;
+        }
+     #hamburguesa{
+        display: none;
+        }   
+    .burger-menu{
+        display: none;
+        }
+    #imagen-ml{
+        width: 100%;
+        height: 164px;
+        position: relative;
+        top: 4px;
+    }
+    main{
+        background-color: rgb(218, 215, 211);
+    }
+    .titulo{
+        font-size: 30px;
+        color: grey;
+        }
+    .contenedor-articulos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    article{
+        display: flex;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .article-sub{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 70%;
+        height: 253px;
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: 0 0 10px grey;     
+    }
+    .article-sub:hover{
+        box-shadow: 0 0 10px rgb(0, 0, 0);
+        transition: 0.5s;
+    }
+    #imagen-article{
+        width: 100%;
+        height: 200px;
+    }
+    .cajas{
+        background-color: white;
+        height: 50px;
+        width: 100%;
+        position: relative;
+        bottom: 3px;
+    }
+    .cajas > #logo{
+        font-size: 15px;
+        padding: 5px;
+        border: 1px solid #39b54a;
+        border-radius: 50%;
+        color: #39b54a;
+        position: relative;
+        right: 10px;
+        top: -15px;
+        left: 85px;
+    }
+    .precios-descuento{
+        display: flex;
+        position: relative;
+        bottom: 25px;
+    }
+    .precios {
+        width: 30%;
+        font-size: 15px;
+    } 
+    .descuento{
+        font-size: 15px;
+        width: 70%;
+        color: #39b54a;
+    }
+    .nombre-producto{
+        background-color: white;
+        width: 100%;
+        height: 25px;
+        position: relative;
+        bottom: 20px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 769px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .logo-search-and-msj{
+        width: 100%;
+        display: flex;
+        height: 100px;
+    }
+    .search{
+        width:33%;
+        margin-top: 40px;
+    }
+    #logo-mercado-liebre{
+        width: 33%;
+    }
+    #cecystdc{
+        width: 33%;
+        margin-top: 35px;
+    }
+    main{
+            background-color: rgb(218, 215, 211);
+    }
+    h4{ 
+        color: rgb(170, 168, 168);
+        position: relative;
+        bottom: 10px;
+    }
+    header{
+        background-color: rgb(255, 208, 0);
+        height: 300px;
+    }
+    .cajas > #logo{
+        font-size: 16px;
+        padding: 5px;
+        border: 1px solid #39b54a;
+        border-radius: 50%;
+        color: #39b54a;
+        position: relative;
+        right: 10px;
+        top: -30px;
+        left: 75px;
+    }
+        
+    .contenedor-articulos{
+            display: flex;
+        }
+    article{
+            display: flex;
+            width: 25%;
+            height: 300px;
+            align-items: center;
+            justify-content: center;
+        }
+    .article-sub{
+            width: 170px;
+            height: 290px;
+            border: 10px solid rgb(255, 255, 255);
+            border-radius: 10px;
+            box-shadow: 0 0 10px grey;     
+        }
+    .article-sub:hover{
+        box-shadow: 0 0 10px rgb(0, 0, 0);
+        transition: 0.5s;
+    }
+    #imagen-article{
+            width: 150px;
+            height: 200px;
+        }
+    .cajas{
+        background-color: rgb(255, 255, 255);
+        padding: 15px; 
+        height: 50px;
+        width: 150px;
+    }
+    .precios-descuento{
+        display: flex;
+        position: relative;
+        bottom: 25px;
+    
+    }
+    .precios {
+        width: 30%;
+    } 
+    .descuento{
+        width: 70%;
+        color: #39b54a;
+    }
+    .nombre-producto{
+        background-color: white;
+        width: 150px;
+        height: 25px;
+        position: relative;
+        right: 15px;
+        bottom: 11px;
+    }
+    #logos-1{
+        color: blue;
+    }
+    #hamburguesa{
+        display: none;
+    }   
+    .burger-menu{
+        display: none;
+        }
+    a{  visibility: visible;
+        text-decoration: none;
+        color: black;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+    .primer-renglon{
+        display: inline;
+        margin: 10px;
+        position: absolute;
+        left: 1px;
+    }
+    .segundo-renglon{
+        display: inline;
+        margin: 10px;
+        position: absolute;
+        right: 1px;
+        top: 95px;
+        }
+    .renglones{
+        display: flex;
+        }
+    #logos-renglones{
+        position: relative;
+        top: 6px;
+        width: 15px; 
+        height: 20px
+        }
+    #imagen-ml{
+        width: 100%;
+        height: 164px;
+        }
+    footer{
+        border: 10px solid rgb(218, 215, 211);
+        background-color: white;
+        }
+    body{
+        width: 100%;
+        }
+    .titulo{
+        font-size: 30px;
+        color: grey;
+        }
+    
+}
+@media (min-width: 950px) { 
+   *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    .logo-search-and-msj{
+    width: 100%;
+    display: flex;
+    height: 100px;
+}
+    .search{
+    width:33%;
+    flex-grow: 33%;
+    margin-top: 40px;
+}
+    #logo-mercado-liebre{
+    width: 33%;
+    flex-grow: 50%;
+}
+    #cecystdc{
+        width: 33%;
+        margin-bottom: 60px;
+}
+    main{
+        background-color: rgb(218, 215, 211);
+}
+    h4{ 
+    color: rgb(170, 168, 168);
+    position: relative;
+    bottom: 5px;
+}
+    header{
+    background-color: rgb(255, 208, 0);
+    height: 300px;
+}
+    .cajas > #logo{
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    color: #39b54a;
+    position: relative;
+    right: 10px;
+    top: -30px;
+    left: 75px;
+}
+    
+    .contenedor-articulos{
+        display: flex;
+    }
+    article{
+        display: flex;
+        width: 25%;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+    .article-sub{
+        width: 220px;
+        height: 290px;
+        border: 10px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 0 0 10px grey;     
+    }
+    .article-sub:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+    #imagen-article{
+        width: 200px;
+        height: 200px;
+    }
+    .cajas{
+    background-color: rgb(255, 255, 255);
+    padding: 15px; 
+    height: 50px;
+    width: 200px;
+}
+    .precios-descuento{
+    display: flex;
+    position: relative;
+    bottom: 25px;
+
+}
+    .precios {
+    width: 30%;
+} 
+   .descuento{
+    width: 70%;
+    color: #39b54a;
+}
+    .nombre-producto{
+    background-color: white;
+    width: 200px;
+    height: 25px;
+    position: relative;
+    right: 15px;
+    bottom: 11px;
+}
+    #logos-1{
+    color: blue;
+}
+    #logos-1:hover{
+        color: rgb(151, 158, 255);
+    }
+    #hamburguesa{
+    display: none;
+}   
+    .burger-menu{
+        display: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .primer-renglon{
+        display: inline;
+        margin: 10px;
+        position: absolute;
+        left: 1px;
+    }
+    .segundo-renglon{
+        display: inline;
+        margin: 10px;
+        position: absolute;
+        right: 1px;
+        top: 95px;
+    }
+    .renglones{
+        display: flex;
+    }
+    #logos-renglones{
+        position: relative;
+        top: 6px;
+        width: 15px; 
+        height: 20px
+    }
+    #imagen-ml{
+        width: 100%;
+        height: 164px;
+    }
+    footer{
+        border: 10px solid rgb(218, 215, 211);
+        background-color: white;
+        
+    }
+    .contenedor-footer-principales{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenedor-mensaje-footer{
+        width: 33.3%;
+        height: 100px;
+        border: 0.1px solid grey;
+    }
+    .contenedor-copyright-footer{
+        margin-top: 10px;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .titulo{
+        font-size: 30px;
+        color: grey;
+    }
+}

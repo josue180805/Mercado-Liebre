@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(218, 215, 211);
+}
+header{
+    background-color: rgb(255, 208, 0);;
+    width: 100%;
+    height: 200px;
+}
+.logo-search-and-msj{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+#logo-mercado-liebre{
+    width: 50%;
+    height: 100px;
+}
+.search{
+
+    width:50%;
+}
+.logo-lupa{
+    height: 20px;
+    width: 20px;
+}
+#barra-de-busqueda{
+    height: 20px;
+    width: 80%;
+}
+#logos-renglones{
+    position: relative;
+    top: 6px;
+    width: 15px; 
+    height: 20px
+}
+#hipervinculo-a{
+    visibility:hidden;
+}
+a{
+    text-decoration: none;
+}
+.burger-menu {
+    color: white;
+    background-color: #1259c3;
+    text-align: center;
+    font-size: 24px;
+    width: 40px;
+    padding: 8px;
+    margin: 0 auto;
+    border-radius: 5px;
+    position: relative;
+    bottom: 35px;
+}
+
+.registro{
+    width: 100%;
+    background-color: rgb(218, 215, 211);
+    height: 500px;
+}
+.conteiner{
+    height: auto;
+    width: 90%;
+    margin: 5%;
+    background-color: rgb(218, 215, 211);
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.option{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner-label{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.conteiner-input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="text"]{
+    width: 80%;
+}
+input[type="password"]{
+    width: 80%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.conteiner-input-radio{
+    margin: 10px 10px;
+}
+@media (min-width:450px) {
+    header{
+        height: 150px;
+    }
+    #logo-mercado-liebre{
+        width: 33%;
+    }
+    .search{
+        width:33%;
+    }
+    .logo-lupa{
+        height: 20px;
+        width: 20px;
+    }
+    #barra-de-busqueda{
+        height: 20px;
+        width: 80%;
+    }
+    #cecystdc{
+        width: 33%;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .primer-renglon{
+        display: inline;
+        margin: 10px;
+        position: absolute;
+        left: 1px;
+    }
+    .segundo-renglon{
+        display: inline;
+        margin: 10px;
+        position: absolute;
+        right: 1px;
+        top: 94.4px;
+        }
+    .renglones{
+        display: flex;
+        }
+    #logos-renglones{
+        position: relative;
+        top: 6px;
+        width: 15px; 
+        height: 20px
+    }
+    #hipervinculo-a{
+        visibility: visible;
+    }
+     #hamburguesa{
+        display: none;
+        }   
+    .burger-menu{
+        display: none;
+        }
+    input[type="text"]{
+            width: 310px;
+
+        }
+    input[type="password"]{
+            width: 310px;
+        }
+}
+@media (min-width: 950px) {
+    header{
+        height: 150px;
+    }
+    #logo-mercado-liebre{
+        width: 33%;
+    }
+    .search{
+        width:33%;
+    }
+    .logo-lupa{
+        height: 20px;
+        width: 20px;
+    }
+    #barra-de-busqueda{
+        height: 20px;
+        width: 80%;
+    }
+    #cecystdc{
+        width: 33%;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .primer-renglon{
+        display: inline;
+        margin: 10px;
+        position: absolute;
+        left: 1px;
+    }
+    .segundo-renglon{
+        display: inline;
+        margin: 10px;
+        position: absolute;
+        right: 1px;
+        top: 94.4px;
+        }
+    .renglones{
+        display: flex;
+        }
+    #logos-renglones{
+        position: relative;
+        top: 6px;
+        width: 15px; 
+        height: 20px
+    }
+    #hipervinculo-a{  visibility: visible;
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+        margin-left: 5px;
+        margin-right: 5px;
+        }
+     #hamburguesa{
+        display: none;
+        }   
+    .burger-menu{
+        display: none;
+        }
+    input[type="text"]{
+            width: 310px;
+            
+        }
+    input[type="password"]{
+            width: 310px;
+    }
+}
